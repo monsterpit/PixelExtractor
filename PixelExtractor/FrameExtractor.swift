@@ -2,8 +2,8 @@
 //  FrameExtractor.swift
 //  PixelExtractor
 //
-//  Created by Mojave on 02/01/20.
-//  Copyright © 2020 Mojave. All rights reserved.
+//  Created by Vikas Salian (MBFang) on 02/01/20.
+//  Copyright © 2020 Vikas Salian (MBFang). All rights reserved.
 //
 
 import UIKit
