@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0B94A3F23BE4F1A00715CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A3E23BE4F1A00715CD7 /* AppDelegate.swift */; };
+		B0B94A4123BE4F1A00715CD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A4023BE4F1A00715CD7 /* SceneDelegate.swift */; };
+		B0B94A4323BE4F1A00715CD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A4223BE4F1A00715CD7 /* ViewController.swift */; };
+		B0B94A4623BE4F1A00715CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B94A4423BE4F1A00715CD7 /* Main.storyboard */; };
+		B0B94A4823BE4F1B00715CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B94A4723BE4F1B00715CD7 /* Assets.xcassets */; };
+		B0B94A4B23BE4F1B00715CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B94A4923BE4F1B00715CD7 /* LaunchScreen.storyboard */; };
+		B0B94A5623BE4F1B00715CD7 /* PixelExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A5523BE4F1B00715CD7 /* PixelExtractorTests.swift */; };
+		B0B94A6123BE4F1B00715CD7 /* PixelExtractorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A6023BE4F1B00715CD7 /* PixelExtractorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0B94A5223BE4F1B00715CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B94A3323BE4F1A00715CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B94A3A23BE4F1A00715CD7;
+			remoteInfo = PixelExtractor;
+		};
+		B0B94A5D23BE4F1B00715CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B94A3323BE4F1A00715CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B94A3A23BE4F1A00715CD7;
+			remoteInfo = PixelExtractor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0B94A3B23BE4F1A00715CD7 /* PixelExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B94A3E23BE4F1A00715CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0B94A4023BE4F1A00715CD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0B94A4223BE4F1A00715CD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0B94A4523BE4F1A00715CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0B94A4723BE4F1B00715CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0B94A4A23BE4F1B00715CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0B94A4C23BE4F1B00715CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B94A5123BE4F1B00715CD7 /* PixelExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelExtractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B94A5523BE4F1B00715CD7 /* PixelExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelExtractorTests.swift; sourceTree = "<group>"; };
+		B0B94A5723BE4F1B00715CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B94A5C23BE4F1B00715CD7 /* PixelExtractorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelExtractorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B94A6023BE4F1B00715CD7 /* PixelExtractorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelExtractorUITests.swift; sourceTree = "<group>"; };
+		B0B94A6223BE4F1B00715CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0B94A3823BE4F1A00715CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B94A4E23BE4F1B00715CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B94A5923BE4F1B00715CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0B94A3223BE4F1A00715CD7 = {
+			isa = PBXGroup;
+			children = (
+				B0B94A3D23BE4F1A00715CD7 /* PixelExtractor */,
+				B0B94A5423BE4F1B00715CD7 /* PixelExtractorTests */,
+				B0B94A5F23BE4F1B00715CD7 /* PixelExtractorUITests */,
+				B0B94A3C23BE4F1A00715CD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0B94A3C23BE4F1A00715CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0B94A3B23BE4F1A00715CD7 /* PixelExtractor.app */,
+				B0B94A5123BE4F1B00715CD7 /* PixelExtractorTests.xctest */,
+				B0B94A5C23BE4F1B00715CD7 /* PixelExtractorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0B94A3D23BE4F1A00715CD7 /* PixelExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				B0B94A3E23BE4F1A00715CD7 /* AppDelegate.swift */,
+				B0B94A4023BE4F1A00715CD7 /* SceneDelegate.swift */,
+				B0B94A4223BE4F1A00715CD7 /* ViewController.swift */,
+				B0B94A4423BE4F1A00715CD7 /* Main.storyboard */,
+				B0B94A4723BE4F1B00715CD7 /* Assets.xcassets */,
+				B0B94A4923BE4F1B00715CD7 /* LaunchScreen.storyboard */,
+				B0B94A4C23BE4F1B00715CD7 /* Info.plist */,
+			);
+			path = PixelExtractor;
+			sourceTree = "<group>";
+		};
+		B0B94A5423BE4F1B00715CD7 /* PixelExtractorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B94A5523BE4F1B00715CD7 /* PixelExtractorTests.swift */,
+				B0B94A5723BE4F1B00715CD7 /* Info.plist */,
+			);
+			path = PixelExtractorTests;
+			sourceTree = "<group>";
+		};
+		B0B94A5F23BE4F1B00715CD7 /* PixelExtractorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B94A6023BE4F1B00715CD7 /* PixelExtractorUITests.swift */,
+				B0B94A6223BE4F1B00715CD7 /* Info.plist */,
+			);
+			path = PixelExtractorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0B94A3A23BE4F1A00715CD7 /* PixelExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B94A6523BE4F1B00715CD7 /* Build configuration list for PBXNativeTarget "PixelExtractor" */;
+			buildPhases = (
+				B0B94A3723BE4F1A00715CD7 /* Sources */,
+				B0B94A3823BE4F1A00715CD7 /* Frameworks */,
+				B0B94A3923BE4F1A00715CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelExtractor;
+			productName = PixelExtractor;
+			productReference = B0B94A3B23BE4F1A00715CD7 /* PixelExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0B94A5023BE4F1B00715CD7 /* PixelExtractorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B94A6823BE4F1B00715CD7 /* Build configuration list for PBXNativeTarget "PixelExtractorTests" */;
+			buildPhases = (
+				B0B94A4D23BE4F1B00715CD7 /* Sources */,
+				B0B94A4E23BE4F1B00715CD7 /* Frameworks */,
+				B0B94A4F23BE4F1B00715CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B94A5323BE4F1B00715CD7 /* PBXTargetDependency */,
+			);
+			name = PixelExtractorTests;
+			productName = PixelExtractorTests;
+			productReference = B0B94A5123BE4F1B00715CD7 /* PixelExtractorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0B94A5B23BE4F1B00715CD7 /* PixelExtractorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B94A6B23BE4F1B00715CD7 /* Build configuration list for PBXNativeTarget "PixelExtractorUITests" */;
+			buildPhases = (
+				B0B94A5823BE4F1B00715CD7 /* Sources */,
+				B0B94A5923BE4F1B00715CD7 /* Frameworks */,
+				B0B94A5A23BE4F1B00715CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B94A5E23BE4F1B00715CD7 /* PBXTargetDependency */,
+			);
+			name = PixelExtractorUITests;
+			productName = PixelExtractorUITests;
+			productReference = B0B94A5C23BE4F1B00715CD7 /* PixelExtractorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0B94A3323BE4F1A00715CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Mojave;
+				TargetAttributes = {
+					B0B94A3A23BE4F1A00715CD7 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					B0B94A5023BE4F1B00715CD7 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = B0B94A3A23BE4F1A00715CD7;
+					};
+					B0B94A5B23BE4F1B00715CD7 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = B0B94A3A23BE4F1A00715CD7;
+					};
+				};
+			};
+			buildConfigurationList = B0B94A3623BE4F1A00715CD7 /* Build configuration list for PBXProject "PixelExtractor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0B94A3223BE4F1A00715CD7;
+			productRefGroup = B0B94A3C23BE4F1A00715CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B94A3A23BE4F1A00715CD7 /* PixelExtractor */,
+				B0B94A5023BE4F1B00715CD7 /* PixelExtractorTests */,
+				B0B94A5B23BE4F1B00715CD7 /* PixelExtractorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0B94A3923BE4F1A00715CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B94A4B23BE4F1B00715CD7 /* LaunchScreen.storyboard in Resources */,
+				B0B94A4823BE4F1B00715CD7 /* Assets.xcassets in Resources */,
+				B0B94A4623BE4F1A00715CD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B94A4F23BE4F1B00715CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B94A5A23BE4F1B00715CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0B94A3723BE4F1A00715CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B94A4323BE4F1A00715CD7 /* ViewController.swift in Sources */,
+				B0B94A3F23BE4F1A00715CD7 /* AppDelegate.swift in Sources */,
+				B0B94A4123BE4F1A00715CD7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B94A4D23BE4F1B00715CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B94A5623BE4F1B00715CD7 /* PixelExtractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B94A5823BE4F1B00715CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B94A6123BE4F1B00715CD7 /* PixelExtractorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0B94A5323BE4F1B00715CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B94A3A23BE4F1A00715CD7 /* PixelExtractor */;
+			targetProxy = B0B94A5223BE4F1B00715CD7 /* PBXContainerItemProxy */;
+		};
+		B0B94A5E23BE4F1B00715CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B94A3A23BE4F1A00715CD7 /* PixelExtractor */;
+			targetProxy = B0B94A5D23BE4F1B00715CD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0B94A4423BE4F1A00715CD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B94A4523BE4F1A00715CD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0B94A4923BE4F1B00715CD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B94A4A23BE4F1B00715CD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0B94A6323BE4F1B00715CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0B94A6423BE4F1B00715CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0B94A6623BE4F1B00715CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MBFang.PixelExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0B94A6723BE4F1B00715CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MBFang.PixelExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0B94A6923BE4F1B00715CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelExtractorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MBFang.PixelExtractorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelExtractor.app/PixelExtractor";
+			};
+			name = Debug;
+		};
+		B0B94A6A23BE4F1B00715CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelExtractorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MBFang.PixelExtractorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelExtractor.app/PixelExtractor";
+			};
+			name = Release;
+		};
+		B0B94A6C23BE4F1B00715CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelExtractorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MBFang.PixelExtractorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelExtractor;
+			};
+			name = Debug;
+		};
+		B0B94A6D23BE4F1B00715CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PixelExtractorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MBFang.PixelExtractorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelExtractor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0B94A3623BE4F1A00715CD7 /* Build configuration list for PBXProject "PixelExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B94A6323BE4F1B00715CD7 /* Debug */,
+				B0B94A6423BE4F1B00715CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B94A6523BE4F1B00715CD7 /* Build configuration list for PBXNativeTarget "PixelExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B94A6623BE4F1B00715CD7 /* Debug */,
+				B0B94A6723BE4F1B00715CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B94A6823BE4F1B00715CD7 /* Build configuration list for PBXNativeTarget "PixelExtractorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B94A6923BE4F1B00715CD7 /* Debug */,
+				B0B94A6A23BE4F1B00715CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B94A6B23BE4F1B00715CD7 /* Build configuration list for PBXNativeTarget "PixelExtractorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B94A6C23BE4F1B00715CD7 /* Debug */,
+				B0B94A6D23BE4F1B00715CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0B94A3323BE4F1A00715CD7 /* Project object */;
+}
