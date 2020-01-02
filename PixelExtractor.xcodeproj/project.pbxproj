@@ -15,6 +15,7 @@
 		B0B94A4B23BE4F1B00715CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B94A4923BE4F1B00715CD7 /* LaunchScreen.storyboard */; };
 		B0B94A5623BE4F1B00715CD7 /* PixelExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A5523BE4F1B00715CD7 /* PixelExtractorTests.swift */; };
 		B0B94A6123BE4F1B00715CD7 /* PixelExtractorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A6023BE4F1B00715CD7 /* PixelExtractorUITests.swift */; };
+		B0B94A6F23BE525100715CD7 /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B94A6E23BE525100715CD7 /* FrameExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B0B94A5C23BE4F1B00715CD7 /* PixelExtractorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelExtractorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B94A6023BE4F1B00715CD7 /* PixelExtractorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelExtractorUITests.swift; sourceTree = "<group>"; };
 		B0B94A6223BE4F1B00715CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B94A6E23BE525100715CD7 /* FrameExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B0B94A4723BE4F1B00715CD7 /* Assets.xcassets */,
 				B0B94A4923BE4F1B00715CD7 /* LaunchScreen.storyboard */,
 				B0B94A4C23BE4F1B00715CD7 /* Info.plist */,
+				B0B94A6E23BE525100715CD7 /* FrameExtractor.swift */,
 			);
 			path = PixelExtractor;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				B0B94A4323BE4F1A00715CD7 /* ViewController.swift in Sources */,
 				B0B94A3F23BE4F1A00715CD7 /* AppDelegate.swift in Sources */,
+				B0B94A6F23BE525100715CD7 /* FrameExtractor.swift in Sources */,
 				B0B94A4123BE4F1A00715CD7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA292C878B;
 				INFOPLIST_FILE = PixelExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA292C878B;
 				INFOPLIST_FILE = PixelExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
